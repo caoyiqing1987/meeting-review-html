@@ -88,10 +88,10 @@ ffmpeg -i video.mp4 -vf "fps=1/3" -q:v 2 frames/frame_%04d.jpg
 打开 `generate_review_html.py`，修改顶部配置区域：
 
 ```python
-PROJECT_NAME = "蒙牛×腾讯体育 片头修改会"
-MEETING_DATE = "2026-05-24"
-VIDEO_DURATION = "35:24"
-PARTICIPANTS = "导演李宝儿 / Will(光格) / 飯飯 / 曹一清"
+PROJECT_NAME = "项目名称"
+MEETING_DATE = "YYYY-MM-DD"
+VIDEO_DURATION = "MM:SS"
+PARTICIPANTS = "参与人A / 参与人B / 参与人C"
 ```
 
 然后填充 `WORK_ITEMS` 列表：
